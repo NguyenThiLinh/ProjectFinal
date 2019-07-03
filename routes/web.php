@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/abc', function () {
+   
     return view('welcome');
 });
-Route::get('list',function(){
-    dd('1');
-});
+// Route::get('list',function(){
+//     dd('1');
+// });

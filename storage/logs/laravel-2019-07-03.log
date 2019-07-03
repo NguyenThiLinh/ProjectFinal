@@ -1,0 +1,116 @@
+[2019-07-03 06:35:56] local.ERROR: Unable to prepare route [/] for serialization. Uses Closure. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [/] for serialization. Uses Closure. at /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Routing/Route.php:917)
+[stacktrace]
+#0 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(62): Illuminate\\Routing\\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#2 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#7 /var/www/projectFinal/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(198): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArrayInput), Object(Illuminate\\Console\\OutputStyle))
+#10 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/OptimizeCommand.php(31): Illuminate\\Console\\Command->call('route:cache')
+#11 [internal function]: Illuminate\\Foundation\\Console\\OptimizeCommand->handle()
+#12 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#13 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#15 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#16 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#17 /var/www/projectFinal/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#18 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 /var/www/projectFinal/vendor/symfony/console/Application.php(921): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 /var/www/projectFinal/vendor/symfony/console/Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\OptimizeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 /var/www/projectFinal/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 /var/www/projectFinal/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2019-07-03 06:36:38] local.ERROR: Unable to prepare route [/] for serialization. Uses Closure. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [/] for serialization. Uses Closure. at /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Routing/Route.php:917)
+[stacktrace]
+#0 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(62): Illuminate\\Routing\\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#2 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#3 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#4 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#7 /var/www/projectFinal/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 /var/www/projectFinal/vendor/symfony/console/Application.php(921): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /var/www/projectFinal/vendor/symfony/console/Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /var/www/projectFinal/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /var/www/projectFinal/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 {main}
+"} 
+[2019-07-03 07:01:27] local.ERROR: SQLSTATE[HY000] [2006] MySQL server has gone away {"exception":"[object] (PDOException(code: 2006): SQLSTATE[HY000] [2006] MySQL server has gone away at /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70, PDOException(code: 0): PDO::__construct(): MySQL server has gone away at /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70)
+[stacktrace]
+#0 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=post...', 'default', 'secret', Array)
+#1 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\\Database\\Connectors\\Connector->createPdoConnection('mysql:host=post...', 'default', 'secret', Array)
+#2 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\\Database\\Connectors\\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=post...', 'default', 'secret', Array)
+#3 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\\Database\\Connectors\\Connector->createConnection('mysql:host=post...', Array, Array)
+#4 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\\Database\\Connectors\\MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate\\Database\\Connectors\\ConnectionFactory->Illuminate\\Database\\Connectors\\{closure}()
+#6 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(919): call_user_func(Object(Closure))
+#7 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(259): Illuminate\\Database\\Connection->getPdo()
+#8 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(245): Illuminate\\Database\\DatabaseManager->refreshPdoConnections('mysql')
+#9 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(65): Illuminate\\Database\\DatabaseManager->reconnect('mysql')
+#10 [internal function]: Illuminate\\Database\\DatabaseManager->Illuminate\\Database\\{closure}(Object(Illuminate\\Database\\MySqlConnection))
+#11 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(756): call_user_func(Object(Closure), Object(Illuminate\\Database\\MySqlConnection))
+#12 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(736): Illuminate\\Database\\Connection->reconnect()
+#13 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(718): Illuminate\\Database\\Connection->tryAgainIfCausedByLostConnection(Object(Illuminate\\Database\\QueryException), 'insert into `te...', Array, Object(Closure))
+#14 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(627): Illuminate\\Database\\Connection->handleQueryException(Object(Illuminate\\Database\\QueryException), 'insert into `te...', Array, Object(Closure))
+#15 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(459): Illuminate\\Database\\Connection->run('insert into `te...', Array, Object(Closure))
+#16 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Connection.php(411): Illuminate\\Database\\Connection->statement('insert into `te...', Array)
+#17 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2640): Illuminate\\Database\\Connection->insert('insert into `te...', Array)
+#18 /var/www/projectFinal/vendor/laravel/telescope/src/Storage/DatabaseEntriesRepository.php(133): Illuminate\\Database\\Query\\Builder->insert(Array)
+#19 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Support/Collection.php(475): Laravel\\Telescope\\Storage\\DatabaseEntriesRepository->Laravel\\Telescope\\Storage\\{closure}(Object(Illuminate\\Support\\Collection), 0)
+#20 /var/www/projectFinal/vendor/laravel/telescope/src/Storage/DatabaseEntriesRepository.php(134): Illuminate\\Support\\Collection->each(Object(Closure))
+#21 /var/www/projectFinal/vendor/laravel/telescope/src/Telescope.php(553): Laravel\\Telescope\\Storage\\DatabaseEntriesRepository->store(Object(Illuminate\\Support\\Collection))
+#22 /var/www/projectFinal/vendor/laravel/telescope/src/ListensForStorageOpportunities.php(44): Laravel\\Telescope\\Telescope::store(Object(Laravel\\Telescope\\Storage\\DatabaseEntriesRepository))
+#23 [internal function]: Laravel\\Telescope\\Telescope::Laravel\\Telescope\\{closure}()
+#24 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Object(Closure), Array)
+#25 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(78): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#26 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#27 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#28 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1019): Illuminate\\Container\\Container->call(Object(Closure))
+#29 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(160): Illuminate\\Foundation\\Application->terminate()
+#30 /var/www/projectFinal/artisan(51): Illuminate\\Foundation\\Console\\Kernel->terminate(Object(Symfony\\Component\\Console\\Input\\ArgvInput), 0)
+#31 {main}
+"} 
+[2019-07-03 07:37:31] local.ERROR: Command "cache:lear" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    route:clear
+    telescope:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:lear\" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    route:clear
+    telescope:clear
+    view:clear at /var/www/projectFinal/vendor/symfony/console/Application.php:652)
+[stacktrace]
+#0 /var/www/projectFinal/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find('cache:lear')
+#1 /var/www/projectFinal/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /var/www/projectFinal/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /var/www/projectFinal/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('list',function(){
-    dd('1');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::get('list',function(){
+//     dd('1');
+// });

@@ -63,7 +63,6 @@
         ],
         "deploy":[
             "php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "composer install --quiet --prefer-dist --optimize-autoloader ",
             "php artisan migrate --force ",
             "php artisan config:cache",
             "php artisan route:cache "
